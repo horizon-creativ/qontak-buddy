@@ -1,0 +1,24 @@
+{
+    "name": "horizondoxa/qontak-buddy",
+    "description": "Library for Mekari's Qontak WhatsApp API Connection",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Horizondoxa\\QontakBuddy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Al Ghifari Anwar",
+            "email": "alghifari.anwar2002@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
