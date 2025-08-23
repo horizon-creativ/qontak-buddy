@@ -21,7 +21,7 @@ class QontakClient
 
     public function request($method, $endpoint, array $options = [])
     {
-        $options['headers']['Authorization'] = 'Bearer ' . $this->token;
+        $options['headers']['Authorization'] = 'Bearer ' . $this->accessToken;
         $options['headers']['Accept'] = 'application/json';
 
         if (!empty($options['json'])) {
