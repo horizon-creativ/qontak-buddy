@@ -12,7 +12,7 @@ class Broadcast
     public function __construct(QontakClient $qontakClient)
     {
         $this->client = $qontakClient;
-        $this->module = 'broadcast';
+        $this->module = 'broadcasts';
     }
 
     /**
